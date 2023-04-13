@@ -21,9 +21,7 @@ public class main {
 					SensorON.add(CurrentStatus);
 				}
 		}
-//		for(int i=0; i<SensorON.length; i++)
-//		System.out.println(SensorON.getClass().getName());  //0번째 index 출력
-		
+
 		for(Situation i : SensorON) { //for문을 통한 전체출력
 		    System.out.println(i.toString());
 		    
