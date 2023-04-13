@@ -26,7 +26,7 @@ public class main {
 		    System.out.println(i.toString());
 		    
 		}
-		System.out.println(SensorON.size());
+		System.out.println("발생건수 : "+SensorON.size()+"\t발생 % : "+(double)SensorON.size()/100000*100+"%");
 		
 	}
 
